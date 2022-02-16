@@ -101,29 +101,29 @@ $(function() {
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        [[nodiscard]] <span class="keyword">virtual</span> <a class="code" href="classgen_1_1Trie.html">ChoiceTrie</a> <a class="code" href="classgen_1_1Trace.html#a03059ee943886ce878fbe32f3e74d733">choices</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">//        /**</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">//         * @return the log joint density.</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">//         */</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">//        [[nodiscard]] virtual double get_score() const = 0;</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code" href="classgen_1_1Trace.html#a6ada731efa97aab6dce6c40d4e4b2f2c">score</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">//        /**</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">//         * @return the return value of the generative function.</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">//         */</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">//        [[nodiscard]] virtual const std::any* get_return_value() const = 0;</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">//        virtual std::any gradients(std::any retval_grad, double scaler, GradientAccumulator&amp; accumulator) = 0;</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classgen_1_1Trace.html#af399741e25569036cb72344b1881c3a3">revert</a>() = 0;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">//        /**</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">//         * @return the return value of the generative function.</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">//         */</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">//        [[nodiscard]] virtual const std::any* get_return_value() const = 0;</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// TODO - use new update / swap / fork interface</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">//        virtual std::any gradients(std::any retval_grad, double scaler, GradientAccumulator&amp; accumulator) = 0;</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    };</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    };</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclassgen_1_1Trace_html_a03059ee943886ce878fbe32f3e74d733"><div class="ttname"><a href="classgen_1_1Trace.html#a03059ee943886ce878fbe32f3e74d733">gen::Trace::choices</a></div><div class="ttdeci">virtual ChoiceTrie choices() const =0</div></div>
+<div class="ttc" id="aclassgen_1_1Trace_html_a6ada731efa97aab6dce6c40d4e4b2f2c"><div class="ttname"><a href="classgen_1_1Trace.html#a6ada731efa97aab6dce6c40d4e4b2f2c">gen::Trace::score</a></div><div class="ttdeci">virtual double score() const =0</div></div>
+<div class="ttc" id="aclassgen_1_1Trace_html_af399741e25569036cb72344b1881c3a3"><div class="ttname"><a href="classgen_1_1Trace.html#af399741e25569036cb72344b1881c3a3">gen::Trace::revert</a></div><div class="ttdeci">virtual void revert()=0</div></div>
 <div class="ttc" id="anamespacegen_html"><div class="ttname"><a href="namespacegen.html">gen</a></div><div class="ttdef"><b>Definition:</b> parameters.h:26</div></div>
 <div class="ttc" id="aparameters_8h_html"><div class="ttname"><a href="parameters_8h.html">parameters.h</a></div></div>
 <div class="ttc" id="aclassgen_1_1Trace_html_aca61bf48eec4f15acf5cbb3163f69c1c"><div class="ttname"><a href="classgen_1_1Trace.html#aca61bf48eec4f15acf5cbb3163f69c1c">gen::Trace::~Trace</a></div><div class="ttdeci">virtual ~Trace()=default</div></div>
-<div class="ttc" id="aclassgen_1_1Trie_html"><div class="ttname"><a href="classgen_1_1Trie.html">gen::Trie&lt; std::any &gt;</a></div></div>
+<div class="ttc" id="aclassgen_1_1Trie_html"><div class="ttname"><a href="classgen_1_1Trie.html">gen::Trie</a></div><div class="ttdef"><b>Definition:</b> trie.h:82</div></div>
 <div class="ttc" id="aclassgen_1_1Trace_html"><div class="ttname"><a href="classgen_1_1Trace.html">gen::Trace</a></div><div class="ttdef"><b>Definition:</b> trace.h:30</div></div>
 <div class="ttc" id="atrie_8h_html"><div class="ttname"><a href="trie_8h.html">trie.h</a></div></div>
 <!-- start footer part -->

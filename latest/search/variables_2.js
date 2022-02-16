@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['map_5f_201',['map_',['../classgen_1_1Trie.html#a9e5a781e637f6ca0a0cfe626e8644730',1,'gen::Trie']]]
+  ['nothing_124',['nothing',['../namespacegen.html#a4618f9dc61b3d18679dcd9b353c264da',1,'gen']]]
 ];

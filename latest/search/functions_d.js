@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['register_5fgen_5fmodule_177',['register_gen_module',['../classgen_1_1Parameters.html#ae28ce978e546587e11df1f9d039984c0',1,'gen::Parameters']]],
-  ['register_5fparameter_178',['register_parameter',['../classgen_1_1Parameters.html#a25c2790ddd7df3b6689409b7c5dcd2fd',1,'gen::Parameters']]],
-  ['register_5ftorch_5fmodule_179',['register_torch_module',['../classgen_1_1Parameters.html#a46c086f3b7db2afebe809a64ddd5b0ab',1,'gen::Parameters::register_torch_module(std::string name, std::shared_ptr&lt; ModuleType &gt; module)'],['../classgen_1_1Parameters.html#a8f2f755f179b91d8edec7ce70137b539',1,'gen::Parameters::register_torch_module(std::string name, torch::nn::ModuleHolder&lt; ModuleType &gt; module_holder)']]],
-  ['rest_180',['rest',['../classgen_1_1Address.html#a89748f08f8ba94e87d88cc43f39d781d',1,'gen::Address']]],
-  ['roll_181',['roll',['../namespacegen.html#a122a26f27b121f0eb33035f1f220fafb',1,'gen::roll(const vector&lt; Tensor &gt; &amp;unrolled, size_t start, const T &amp;value)'],['../namespacegen.html#aeaaac736b8e41fcec6c97433ffe426c3',1,'gen::roll(const vector&lt; Tensor &gt; &amp;unrolled, size_t start, const Tensor &amp;value)'],['../namespacegen.html#ab9bdd64a12a5f6c1cb8fc0c4f1020bfb',1,'gen::roll(const vector&lt; Tensor &gt; &amp;unrolled, size_t start, const pair&lt; T, U &gt; &amp;value)'],['../namespacegen.html#a9c8185a68bd6c977611b3d65a4305bf5',1,'gen::roll(const vector&lt; Tensor &gt; &amp;unrolled, size_t start, const vector&lt; T &gt; &amp;value)'],['../namespacegen.html#ae8f993cf1ae47dcc3a0a0b46a19ebdaa',1,'gen::roll(const vector&lt; Tensor &gt; &amp;unrolled, const T &amp;value)']]]
+  ['trie_112',['Trie',['../classgen_1_1Trie.html#a10ddc88847837f7decbe29c3823de7e9',1,'gen::Trie::Trie()=default'],['../classgen_1_1Trie.html#a8793f831d4d1ec3f09fda6cb1878ef47',1,'gen::Trie::Trie(const Trie &amp;value)=default'],['../classgen_1_1Trie.html#ae378d06d861c5e4ab3b74391b9aa064d',1,'gen::Trie::Trie(Trie &amp;&amp;value) noexcept=default']]],
+  ['triekeyerror_113',['TrieKeyError',['../classgen_1_1TrieKeyError.html#a285f7d2c9b579af38b5d9245556cf9d1',1,'gen::TrieKeyError']]],
+  ['trieoverwriteerror_114',['TrieOverwriteError',['../classgen_1_1TrieOverwriteError.html#a48ec2761d6d39fcfb0e8e92ac0f12eae',1,'gen::TrieOverwriteError']]]
 ];

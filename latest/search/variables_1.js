@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['empty_5fmodule_5fsingleton_200',['empty_module_singleton',['../namespacegen.html#ab33564c3159baf05cfc1019e101788cd',1,'gen']]]
+  ['map_5f_123',['map_',['../classgen_1_1Trie.html#a9e5a781e637f6ca0a0cfe626e8644730',1,'gen::Trie']]]
 ];

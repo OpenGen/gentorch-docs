@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['emptymodule_109',['EmptyModule',['../classgen_1_1EmptyModule.html',1,'gen']]]
+  ['gradientaccumulator_64',['GradientAccumulator',['../classgen_1_1GradientAccumulator.html',1,'gen']]]
 ];

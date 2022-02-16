@@ -1,11 +1,7 @@
 var searchData=
 [
-  ['p_61',['P',['../classgen_1_1dml_1_1DMLGenFn.html#a4b3ecf3eaef449bc7a5ee1ff5be154e4',1,'gen::dml::DMLGenFn']]],
-  ['parameter_5fgradient_62',['parameter_gradient',['../classgen_1_1dml_1_1DMLTrace.html#afc6df9fc44908cce65a2aa5e547977a1',1,'gen::dml::DMLTrace::parameter_gradient(GradientAccumulator &amp;accumulator, return_type retval_grad, double scaler)'],['../classgen_1_1dml_1_1DMLTrace.html#ac5a95dca1b07a823ad927e24791ed5e1',1,'gen::dml::DMLTrace::parameter_gradient(GradientAccumulator &amp;accumulator, double scaler)']]],
-  ['parameters_63',['Parameters',['../classgen_1_1Parameters.html',1,'gen::Parameters'],['../classgen_1_1GradientAccumulator.html#afaebbd8ef883afa59f01fa3d4475e6a2',1,'gen::GradientAccumulator::Parameters()']]],
-  ['parameters_2eh_64',['parameters.h',['../parameters_8h.html',1,'']]],
-  ['parameters_5ftype_65',['parameters_type',['../classgen_1_1dml_1_1DMLTrace.html#a556ca6cf601f275f0ac5bf55897d34c9',1,'gen::dml::DMLTrace::parameters_type()'],['../classgen_1_1dml_1_1DMLUpdateTracer.html#ac2ad15c8adff642b495c6da88134555f',1,'gen::dml::DMLUpdateTracer::parameters_type()'],['../classgen_1_1dml_1_1DMLSimulateTracer.html#a3e10527449d4b921124f6247ef99cf59',1,'gen::dml::DMLSimulateTracer::parameters_type()'],['../classgen_1_1dml_1_1DMLGenerateTracer.html#a7c1793764cff8590c25a63df63c30acf',1,'gen::dml::DMLGenerateTracer::parameters_type()'],['../classgen_1_1dml_1_1DMLGenFn.html#ad4a6012d9a3e4f6ca3e32e7514bb2d63',1,'gen::dml::DMLGenFn::parameters_type()']]],
-  ['prepare_5ffor_5fgradients_66',['prepare_for_gradients',['../classgen_1_1dml_1_1DMLUpdateTracer.html#a22c7a4b1edab45ad410b7d1973cdb40e',1,'gen::dml::DMLUpdateTracer::prepare_for_gradients()'],['../classgen_1_1dml_1_1DMLSimulateTracer.html#aec3e3b80fec4c63e9275885810940cca',1,'gen::dml::DMLSimulateTracer::prepare_for_gradients()'],['../classgen_1_1dml_1_1DMLGenerateTracer.html#a46bdd688e197cf9475c8b252575f3bee',1,'gen::dml::DMLGenerateTracer::prepare_for_gradients()']]],
-  ['pretty_5fprint_67',['pretty_print',['../classgen_1_1Trie.html#a1a275188222f9f966d90a6b18d49096c',1,'gen::Trie']]],
-  ['pretty_5fprint_5fvalue_68',['pretty_print_value',['../namespacegen.html#a0c8f4a84f06aef74404e90a0ecaa9cfb',1,'gen']]]
+  ['parameters_33',['Parameters',['../classgen_1_1Parameters.html',1,'gen::Parameters'],['../classgen_1_1GradientAccumulator.html#afaebbd8ef883afa59f01fa3d4475e6a2',1,'gen::GradientAccumulator::Parameters()']]],
+  ['parameters_2eh_34',['parameters.h',['../parameters_8h.html',1,'']]],
+  ['pretty_5fprint_35',['pretty_print',['../classgen_1_1Trie.html#a1a275188222f9f966d90a6b18d49096c',1,'gen::Trie']]],
+  ['pretty_5fprint_5fvalue_36',['pretty_print_value',['../namespacegen.html#a0c8f4a84f06aef74404e90a0ecaa9cfb',1,'gen']]]
 ];

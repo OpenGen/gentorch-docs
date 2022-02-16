@@ -117,6 +117,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae00b987a45077c6adf8ba990b7103523"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb47a10bae32a465ce2ade08209ea1d6"><td class="memItemLeft" align="right" valign="top">ValueType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1Trie.html#aeb47a10bae32a465ce2ade08209ea1d6">set_value</a> (ValueType value, bool overwrite=true)</td></tr>
 <tr class="separator:aeb47a10bae32a465ce2ade08209ea1d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac588c3a4f0d442aa9ba2b4d3fd5fd23a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1Trie.html#ac588c3a4f0d442aa9ba2b4d3fd5fd23a">clear</a> ()</td></tr>
+<tr class="separator:ac588c3a4f0d442aa9ba2b4d3fd5fd23a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b1062430f182802532fa65fe9bf0f2a"><td class="memItemLeft" align="right" valign="top">ValueType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1Trie.html#a8b1062430f182802532fa65fe9bf0f2a">set_value</a> (const <a class="el" href="classgen_1_1Address.html">Address</a> &amp;address, ValueType value, bool overwrite=true)</td></tr>
 <tr class="separator:a8b1062430f182802532fa65fe9bf0f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab261642a2d4c3cef37a2950bea0b954c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1Trie.html#ab261642a2d4c3cef37a2950bea0b954c">has_subtrie</a> (const <a class="el" href="classgen_1_1Address.html">Address</a> &amp;address) const</td></tr>
@@ -125,8 +127,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2b1d471cf8da66bbad7a24a4f18669f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2c84a8b48923b5f04b087296e061f86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1Trie.html#ae2c84a8b48923b5f04b087296e061f86">set_subtrie</a> (const <a class="el" href="classgen_1_1Address.html">Address</a> &amp;address, <a class="el" href="classgen_1_1Trie.html">Trie</a>&lt; ValueType &gt; trie, bool overwrite=true)</td></tr>
 <tr class="separator:ae2c84a8b48923b5f04b087296e061f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54e75f514e8ff84ba3773d6eff13b848"><td class="memItemLeft" align="right" valign="top">const unordered_map&lt; string, <a class="el" href="classgen_1_1Trie.html">Trie</a>&lt; ValueType &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1Trie.html#a54e75f514e8ff84ba3773d6eff13b848">subtries</a> () const</td></tr>
-<tr class="separator:a54e75f514e8ff84ba3773d6eff13b848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa3bfadd3e9b69861e797f52f752aa14"><td class="memItemLeft" align="right" valign="top">unordered_map&lt; string, <a class="el" href="classgen_1_1Trie.html">Trie</a>&lt; ValueType &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1Trie.html#afa3bfadd3e9b69861e797f52f752aa14">subtries</a> () const</td></tr>
+<tr class="separator:afa3bfadd3e9b69861e797f52f752aa14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2a85a1043c0956ca8641081be4fdd28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1Trie.html#af2a85a1043c0956ca8641081be4fdd28">remove_empty_subtries</a> ()</td></tr>
+<tr class="separator:af2a85a1043c0956ca8641081be4fdd28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -263,6 +267,33 @@ template&lt;typename ValueType &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac588c3a4f0d442aa9ba2b4d3fd5fd23a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac588c3a4f0d442aa9ba2b4d3fd5fd23a">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classgen_1_1Trie.html">gen::Trie</a>&lt; ValueType &gt;::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a63ed53e161153399cdf44a4fc71159c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a63ed53e161153399cdf44a4fc71159c7">&#9670;&nbsp;</a></span>empty()</h2>
 
@@ -514,6 +545,22 @@ template&lt;typename ValueType &gt; </div>
 
 </div>
 </div>
+<a id="af2a85a1043c0956ca8641081be4fdd28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2a85a1043c0956ca8641081be4fdd28">&#9670;&nbsp;</a></span>remove_empty_subtries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classgen_1_1Trie.html">gen::Trie</a>&lt; ValueType &gt;::remove_empty_subtries</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae2c84a8b48923b5f04b087296e061f86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae2c84a8b48923b5f04b087296e061f86">&#9670;&nbsp;</a></span>set_subtrie()</h2>
 
@@ -660,8 +707,8 @@ template&lt;typename ValueType &gt; </div>
 
 </div>
 </div>
-<a id="a54e75f514e8ff84ba3773d6eff13b848"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54e75f514e8ff84ba3773d6eff13b848">&#9670;&nbsp;</a></span>subtries()</h2>
+<a id="afa3bfadd3e9b69861e797f52f752aa14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa3bfadd3e9b69861e797f52f752aa14">&#9670;&nbsp;</a></span>subtries()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -672,7 +719,7 @@ template&lt;typename ValueType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const unordered_map&lt;string, <a class="el" href="classgen_1_1Trie.html">Trie</a>&lt;ValueType&gt; &gt;&amp; <a class="el" href="classgen_1_1Trie.html">gen::Trie</a>&lt; ValueType &gt;::subtries </td>
+          <td class="memname">unordered_map&lt;string, <a class="el" href="classgen_1_1Trie.html">Trie</a>&lt;ValueType&gt; &gt;&amp; <a class="el" href="classgen_1_1Trie.html">gen::Trie</a>&lt; ValueType &gt;::subtries </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
