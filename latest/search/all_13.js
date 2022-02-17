@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['what_58',['what',['../classgen_1_1TrieKeyError.html#ad391f36a422af59dbb31906df135d41a',1,'gen::TrieKeyError::what()'],['../classgen_1_1TrieOverwriteError.html#a89af704b1aeb2528f2cf8bb83a820f15',1,'gen::TrieOverwriteError::what()']]]
+  ['what_110',['what',['../classgentorch_1_1TrieKeyError.html#a71415b0bee8dc4127edc5eddaa2425ce',1,'gentorch::TrieKeyError::what()'],['../classgentorch_1_1TrieOverwriteError.html#aa910169c88a3e302fd556475cff1287a',1,'gentorch::TrieOverwriteError::what()']]]
 ];

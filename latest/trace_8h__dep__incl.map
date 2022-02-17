@@ -1,4 +1,7 @@
-<map id="gen/trace.h" name="gen/trace.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,100,32"/>
-<area shape="rect" id="node2" href="$dml_8h.html" title=" " alt="" coords="9,80,96,107"/>
+<map id="gentorch/trace.h" name="gentorch/trace.h">
+<area shape="rect" id="node1" title=" " alt="" coords="262,5,390,32"/>
+<area shape="rect" id="node2" href="$distributions_8h.html" title=" " alt="" coords="172,80,336,121"/>
+<area shape="rect" id="node3" href="$normal_8h.html" title=" " alt="" coords="5,169,169,211"/>
+<area shape="rect" id="node4" href="$bernoulli_8h.html" title=" " alt="" coords="193,169,357,211"/>
+<area shape="rect" id="node5" href="$uniform__continuous_8h.html" title=" " alt="" coords="381,169,548,211"/>
 </map>

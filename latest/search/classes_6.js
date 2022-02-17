@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['trace_115',['Trace',['../classgen_1_1Trace.html',1,'gen']]],
-  ['trie_116',['Trie',['../classgen_1_1Trie.html',1,'gen']]],
-  ['trie_3c_20std_3a_3aany_20_3e_117',['Trie&lt; std::any &gt;',['../classgen_1_1Trie.html',1,'gen']]],
-  ['trie_3c_20std_3a_3aunique_5fptr_3c_20gen_3a_3atrace_20_3e_20_3e_118',['Trie&lt; std::unique_ptr&lt; gen::Trace &gt; &gt;',['../classgen_1_1Trie.html',1,'gen']]],
-  ['triekeyerror_119',['TrieKeyError',['../classgen_1_1TrieKeyError.html',1,'gen']]],
-  ['trieoverwriteerror_120',['TrieOverwriteError',['../classgen_1_1TrieOverwriteError.html',1,'gen']]]
+  ['parameters_128',['Parameters',['../classgentorch_1_1Parameters.html',1,'gentorch']]],
+  ['primitivegenfn_129',['PrimitiveGenFn',['../classgentorch_1_1distributions_1_1PrimitiveGenFn.html',1,'gentorch::distributions']]],
+  ['primitivegenfn_3c_20bernoulli_2c_20tensor_2c_20bool_2c_20bernoullidist_20_3e_130',['PrimitiveGenFn&lt; Bernoulli, Tensor, bool, BernoulliDist &gt;',['../classgentorch_1_1distributions_1_1PrimitiveGenFn.html',1,'gentorch::distributions']]],
+  ['primitivegenfn_3c_20normal_2c_20std_3a_3apair_3c_20tensor_2c_20tensor_20_3e_2c_20tensor_2c_20normaldist_20_3e_131',['PrimitiveGenFn&lt; Normal, std::pair&lt; Tensor, Tensor &gt;, Tensor, NormalDist &gt;',['../classgentorch_1_1distributions_1_1PrimitiveGenFn.html',1,'gentorch::distributions']]],
+  ['primitivegenfn_3c_20uniformcontinuous_2c_20std_3a_3apair_3c_20tensor_2c_20tensor_20_3e_2c_20tensor_2c_20uniformcontinuousdist_20_3e_132',['PrimitiveGenFn&lt; UniformContinuous, std::pair&lt; Tensor, Tensor &gt;, Tensor, UniformContinuousDist &gt;',['../classgentorch_1_1distributions_1_1PrimitiveGenFn.html',1,'gentorch::distributions']]],
+  ['primitivetrace_133',['PrimitiveTrace',['../classgentorch_1_1distributions_1_1PrimitiveTrace.html',1,'gentorch::distributions']]]
 ];

@@ -1,10 +1,12 @@
 var searchData=
 [
-  ['get_5findent_89',['get_indent',['../namespacegen.html#a1deec51d0e38e5f6a501531b30671bfb',1,'gen']]],
-  ['get_5findent_5flast_90',['get_indent_last',['../namespacegen.html#a8cbe82e3593e2f24378efb1e9d6dcefe',1,'gen']]],
-  ['get_5findent_5fvert_91',['get_indent_vert',['../namespacegen.html#a5c0072a02be6a9a0f510ce521b924a2d',1,'gen']]],
-  ['get_5findent_5fvert_5flast_92',['get_indent_vert_last',['../namespacegen.html#a6293618a2d388126d7d63f9ee02b763a',1,'gen']]],
-  ['get_5fsubtrie_93',['get_subtrie',['../classgen_1_1Trie.html#a2b1d471cf8da66bbad7a24a4f18669f5',1,'gen::Trie']]],
-  ['get_5fvalue_94',['get_value',['../classgen_1_1Trie.html#a2262040284741827060515f9b646371d',1,'gen::Trie::get_value() const'],['../classgen_1_1Trie.html#ae00b987a45077c6adf8ba990b7103523',1,'gen::Trie::get_value(const Address &amp;address) const']]],
-  ['gradientaccumulator_95',['GradientAccumulator',['../classgen_1_1GradientAccumulator.html#a4c3542c5f1fcc7331b3dfda96c8774f3',1,'gen::GradientAccumulator::GradientAccumulator(const Parameters &amp;module)'],['../classgen_1_1GradientAccumulator.html#a964d95bd596ba806098150abe380d1c3',1,'gen::GradientAccumulator::GradientAccumulator(std::shared_ptr&lt; Parameters &gt; module_ptr)']]]
+  ['generate_175',['generate',['../classgentorch_1_1distributions_1_1PrimitiveGenFn.html#a310ec6456475d0205b216f86b561d53c',1,'gentorch::distributions::PrimitiveGenFn']]],
+  ['get_5fargs_176',['get_args',['../classgentorch_1_1distributions_1_1PrimitiveGenFn.html#a45f2aa71a21e1bb3083e25d23e46a538',1,'gentorch::distributions::PrimitiveGenFn']]],
+  ['get_5findent_177',['get_indent',['../namespacegentorch.html#aa753661ae6108a73d235b7f1aff2b349',1,'gentorch']]],
+  ['get_5findent_5flast_178',['get_indent_last',['../namespacegentorch.html#ae23f498fd5a2985d758d4c036edf0c26',1,'gentorch']]],
+  ['get_5findent_5fvert_179',['get_indent_vert',['../namespacegentorch.html#afa4168345e7c56e30dabff59c7496d74',1,'gentorch']]],
+  ['get_5findent_5fvert_5flast_180',['get_indent_vert_last',['../namespacegentorch.html#a6ec2cb4456a85991c5f51e012f906052',1,'gentorch']]],
+  ['get_5fsubtrie_181',['get_subtrie',['../classgentorch_1_1Trie.html#a4a944b66528f7099aeee888df0ff6621',1,'gentorch::Trie']]],
+  ['get_5fvalue_182',['get_value',['../classgentorch_1_1Trie.html#af9b36d934572841ceabfeb8a2ddab3df',1,'gentorch::Trie::get_value() const'],['../classgentorch_1_1Trie.html#a4ee94ab095642a79f3953962eaf23da5',1,'gentorch::Trie::get_value(const Address &amp;address) const']]],
+  ['gradientaccumulator_183',['GradientAccumulator',['../classgentorch_1_1GradientAccumulator.html#aee2e03ef632e7f6bd61a3aced4e13499',1,'gentorch::GradientAccumulator::GradientAccumulator(const Parameters &amp;module)'],['../classgentorch_1_1GradientAccumulator.html#a8415021bd8928916a3358f4df3656c20',1,'gentorch::GradientAccumulator::GradientAccumulator(std::shared_ptr&lt; Parameters &gt; module_ptr)']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['scaler_5fptr_5f_203',['scaler_ptr_',['../structgen_1_1dml_1_1GradientHelper.html#a16870027d2dccd235dfcec2b54fa6513',1,'gen::dml::GradientHelper']]]
+  ['sqrt_5f2_5fpi_229',['sqrt_2_pi',['../namespacegentorch_1_1distributions_1_1normal.html#a9033e66d3d07b91f18808a0082589411',1,'gentorch::distributions::normal']]]
 ];

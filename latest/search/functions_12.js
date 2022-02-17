@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['zero_5fgradient_192',['zero_gradient',['../namespacegen.html#af6ceae86ef77cd5e85189525789ea586',1,'gen::zero_gradient(const Nothing &amp;value)'],['../namespacegen.html#a4017ec797d98ec710254aba397552325',1,'gen::zero_gradient(const Tensor &amp;value)']]]
+  ['_7eparameters_222',['~Parameters',['../classgentorch_1_1Parameters.html#a70e6b3d912bcc7ccda870d3c5ef72b12',1,'gentorch::Parameters']]],
+  ['_7etrace_223',['~Trace',['../classgentorch_1_1Trace.html#ac407b22df790d40c40019525f006ea54',1,'gentorch::Trace']]],
+  ['_7etrie_224',['~Trie',['../classgentorch_1_1Trie.html#acf5ce253acb9c16a34a18ad46455ef73',1,'gentorch::Trie']]]
 ];

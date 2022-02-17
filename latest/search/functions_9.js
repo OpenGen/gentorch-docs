@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['operator_3c_3c_99',['operator&lt;&lt;',['../namespacegen.html#a9c7e196a22f33ec53d564ddda8853e07',1,'gen::operator&lt;&lt;(std::ostream &amp;out, const Address &amp;address)'],['../namespacegen.html#ad36f2fb8150b5718fec5c1b18cb1449a',1,'gen::operator&lt;&lt;(std::ostream &amp;out, const Trie&lt; T &gt; &amp;trie)'],['../namespacegen.html#a7a646e0dc0203df9ec7bf1fbceef5769',1,'gen::operator&lt;&lt;(std::ostream &amp;out, const Trie&lt; ValueType &gt; &amp;trie)']]],
-  ['operator_3d_100',['operator=',['../classgen_1_1Trie.html#a0f3b03bc5b59f33315c1dca2e8335e6a',1,'gen::Trie::operator=(const Trie &amp;other)=default'],['../classgen_1_1Trie.html#aa9f12ffc95a8dee12b8e0085ca10b7cb',1,'gen::Trie::operator=(Trie &amp;&amp;other)=default']]]
+  ['normal_189',['Normal',['../classgentorch_1_1distributions_1_1normal_1_1Normal.html#ad17609b55a9a685a005aede73e5c6aa3',1,'gentorch::distributions::normal::Normal']]],
+  ['normaldist_190',['NormalDist',['../classgentorch_1_1distributions_1_1normal_1_1NormalDist.html#ab927952cc7a9cb3f48a90788d2afe016',1,'gentorch::distributions::normal::NormalDist']]]
 ];

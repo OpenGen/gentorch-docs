@@ -1,5 +1,9 @@
-<map id="gen/address.h" name="gen/address.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,119,32"/>
-<area shape="rect" id="node2" href="$trie_8h.html" title=" " alt="" coords="20,80,104,107"/>
-<area shape="rect" id="node3" href="$trace_8h.html" title=" " alt="" coords="15,155,109,181"/>
+<map id="gentorch/address.h" name="gentorch/address.h">
+<area shape="rect" id="node1" title=" " alt="" coords="253,5,399,32"/>
+<area shape="rect" id="node2" href="$trie_8h.html" title=" " alt="" coords="267,80,385,107"/>
+<area shape="rect" id="node3" href="$trace_8h.html" title=" " alt="" coords="262,155,390,181"/>
+<area shape="rect" id="node4" href="$distributions_8h.html" title=" " alt="" coords="172,229,336,271"/>
+<area shape="rect" id="node5" href="$normal_8h.html" title=" " alt="" coords="5,319,169,360"/>
+<area shape="rect" id="node6" href="$bernoulli_8h.html" title=" " alt="" coords="193,319,357,360"/>
+<area shape="rect" id="node7" href="$uniform__continuous_8h.html" title=" " alt="" coords="381,319,548,360"/>
 </map>

@@ -1,0 +1,6 @@
+<map id="gentorch::distributions::PrimitiveGenFn&lt; Derived, ArgsType, ReturnType, DistType &gt;" name="gentorch::distributions::PrimitiveGenFn&lt; Derived, ArgsType, ReturnType, DistType &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,251,163"/>
+<area shape="rect" id="node2" href="$classgentorch_1_1distributions_1_1bernoulli_1_1Bernoulli.html" title=" " alt="" coords="353,5,538,76"/>
+<area shape="rect" id="node3" href="$classgentorch_1_1distributions_1_1normal_1_1Normal.html" title=" " alt="" coords="346,100,545,171"/>
+<area shape="rect" id="node4" href="$classgentorch_1_1distributions_1_1uniform__continuous_1_1UniformContinuous.html" title=" " alt="" coords="299,195,592,281"/>
+</map>

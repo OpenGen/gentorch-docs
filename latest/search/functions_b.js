@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['register_5fgen_5fmodule_103',['register_gen_module',['../classgen_1_1Parameters.html#ae28ce978e546587e11df1f9d039984c0',1,'gen::Parameters']]],
-  ['register_5fparameter_104',['register_parameter',['../classgen_1_1Parameters.html#a25c2790ddd7df3b6689409b7c5dcd2fd',1,'gen::Parameters']]],
-  ['register_5ftorch_5fmodule_105',['register_torch_module',['../classgen_1_1Parameters.html#a46c086f3b7db2afebe809a64ddd5b0ab',1,'gen::Parameters::register_torch_module(std::string name, std::shared_ptr&lt; ModuleType &gt; module)'],['../classgen_1_1Parameters.html#a8f2f755f179b91d8edec7ce70137b539',1,'gen::Parameters::register_torch_module(std::string name, torch::nn::ModuleHolder&lt; ModuleType &gt; module_holder)']]],
-  ['remove_5fempty_5fsubtries_106',['remove_empty_subtries',['../classgen_1_1Trie.html#af2a85a1043c0956ca8641081be4fdd28',1,'gen::Trie']]],
-  ['rest_107',['rest',['../classgen_1_1Address.html#a89748f08f8ba94e87d88cc43f39d781d',1,'gen::Address']]],
-  ['revert_108',['revert',['../classgen_1_1Trace.html#af399741e25569036cb72344b1881c3a3',1,'gen::Trace']]],
-  ['roll_109',['roll',['../namespacegen.html#a122a26f27b121f0eb33035f1f220fafb',1,'gen::roll(const vector&lt; Tensor &gt; &amp;unrolled, size_t start, const T &amp;value)'],['../namespacegen.html#aeaaac736b8e41fcec6c97433ffe426c3',1,'gen::roll(const vector&lt; Tensor &gt; &amp;unrolled, size_t start, const Tensor &amp;value)'],['../namespacegen.html#ab9bdd64a12a5f6c1cb8fc0c4f1020bfb',1,'gen::roll(const vector&lt; Tensor &gt; &amp;unrolled, size_t start, const pair&lt; T, U &gt; &amp;value)'],['../namespacegen.html#a9c8185a68bd6c977611b3d65a4305bf5',1,'gen::roll(const vector&lt; Tensor &gt; &amp;unrolled, size_t start, const vector&lt; T &gt; &amp;value)'],['../namespacegen.html#ae8f993cf1ae47dcc3a0a0b46a19ebdaa',1,'gen::roll(const vector&lt; Tensor &gt; &amp;unrolled, const T &amp;value)']]]
+  ['parameter_5fgradient_193',['parameter_gradient',['../classgentorch_1_1distributions_1_1PrimitiveTrace.html#a82abd9803808f145e8d4586901ac20b5',1,'gentorch::distributions::PrimitiveTrace::parameter_gradient(GradientAccumulator &amp;accumulator, const return_type &amp;, double scaler)'],['../classgentorch_1_1distributions_1_1PrimitiveTrace.html#ac25b926907790989e12d2cfb3e165995',1,'gentorch::distributions::PrimitiveTrace::parameter_gradient(GradientAccumulator &amp;accumulator, double scaler)']]],
+  ['pretty_5fprint_194',['pretty_print',['../classgentorch_1_1Trie.html#ae7bd0d02d00baf25714ff716284b4a2c',1,'gentorch::Trie']]],
+  ['pretty_5fprint_5fvalue_195',['pretty_print_value',['../namespacegentorch.html#a8ab06cd05e05072b40ed6b902e1e24c0',1,'gentorch']]],
+  ['primitivegenfn_196',['PrimitiveGenFn',['../classgentorch_1_1distributions_1_1PrimitiveGenFn.html#a61b0557f930550cd8a32f0c210dbd073',1,'gentorch::distributions::PrimitiveGenFn']]],
+  ['primitivetrace_197',['PrimitiveTrace',['../classgentorch_1_1distributions_1_1PrimitiveTrace.html#aa1e8158e94674dd758336bb5be29d296',1,'gentorch::distributions::PrimitiveTrace']]]
 ];

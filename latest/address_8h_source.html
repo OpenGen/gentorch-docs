@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GenTorch: gen/address.h Source File</title>
+<title>GenTorch: gentorch/address.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,7 +62,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc8e1200a125b987143b0322bad47295.html">gen</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_45827b7a7012176b5142db2efdceee77.html">gentorch</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -70,7 +70,7 @@ $(function() {
 <div class="title">address.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="address_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* Copyright 2021 The LibGen Authors</span></div>
+<a href="address_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* Copyright 2021-2022 Massachusetts Institute of Technology</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"></span> </div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">you may not use this file except in compliance with the License.</span></div>
@@ -85,45 +85,48 @@ $(function() {
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">        limitations under the License.</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">==============================================================================*/</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;optional&gt;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;initializer_list&gt;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegen.html">gen</a> {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">class </span>Address;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classgen_1_1Address.html">   30</a></span>&#160;<span class="keyword">class </span><a class="code" href="classgen_1_1Address.html">Address</a> {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classgen_1_1Address.html#a6c11edf1c03bfcf3727a98adb7a218d4">   32</a></span>&#160;    <a class="code" href="classgen_1_1Address.html#a6c11edf1c03bfcf3727a98adb7a218d4">Address</a>() : first_(std::optional&lt;std::string&gt;()) { } <span class="comment">// empty address</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classgen_1_1Address.html#a330192bfe38990d3960916843ea0176c">   33</a></span>&#160;    <a class="code" href="classgen_1_1Address.html#a330192bfe38990d3960916843ea0176c">Address</a>(std::initializer_list&lt;std::string&gt; list) : <a class="code" href="classgen_1_1Address.html">Address</a>(list.begin(), list.end()) { }</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classgen_1_1Address.html#a4c091eb2af372451d19b59b8905f1b61">   34</a></span>&#160;    [[nodiscard]] <span class="keywordtype">bool</span> <a class="code" href="classgen_1_1Address.html#a4c091eb2af372451d19b59b8905f1b61">empty</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> !first_.has_value(); }</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classgen_1_1Address.html#a6c11edf1c03bfcf3727a98adb7a218d4">Address</a>(std::initializer_list&lt;std::string&gt;::const_iterator begin,</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                     std::initializer_list&lt;std::string&gt;::const_iterator end);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    [[nodiscard]] <span class="keyword">const</span> std::string&amp; <a class="code" href="classgen_1_1Address.html#a472a4a739ace76f9b9f373a6df76d13c">first</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    [[nodiscard]] <span class="keyword">const</span> <a class="code" href="classgen_1_1Address.html">Address</a>&amp; <a class="code" href="classgen_1_1Address.html#a89748f08f8ba94e87d88cc43f39d781d">rest</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">friend</span> std::ostream&amp; <a class="code" href="classgen_1_1Address.html#a6e3f5e687ffeaf98d6dd7ef11727b512">operator&lt;&lt; </a>(std::ostream&amp; out, <span class="keyword">const</span> <a class="code" href="classgen_1_1Address.html">Address</a>&amp; address);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    std::optional&lt;std::string&gt; first_;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    std::optional&lt;std::shared_ptr&lt;Address&gt;&gt; rest_;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;std::ostream&amp; <a class="code" href="namespacegen.html#a9c7e196a22f33ec53d564ddda8853e07">operator&lt;&lt; </a>(std::ostream&amp; out, <span class="keyword">const</span> Address&amp; address);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifndef GENTORCH_ADDRESS_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#define GENTORCH_ADDRESS_H</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;optional&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;initializer_list&gt;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegentorch.html">gentorch</a> {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">class </span>Address;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classgentorch_1_1Address.html">   31</a></span>&#160;<span class="keyword">class </span><a class="code" href="classgentorch_1_1Address.html">Address</a> {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classgentorch_1_1Address.html#a5ba84c2136aa2fad8cfccc88632b7ded">   33</a></span>&#160;    <a class="code" href="classgentorch_1_1Address.html#a5ba84c2136aa2fad8cfccc88632b7ded">Address</a>() : first_(std::optional&lt;std::string&gt;()) { } <span class="comment">// empty address</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classgentorch_1_1Address.html#af856ffbd2d4ad375682a69240fa19e60">   34</a></span>&#160;    <a class="code" href="classgentorch_1_1Address.html#af856ffbd2d4ad375682a69240fa19e60">Address</a>(std::initializer_list&lt;std::string&gt; list) : <a class="code" href="classgentorch_1_1Address.html">Address</a>(list.begin(), list.end()) { }</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classgentorch_1_1Address.html#ad77e2460c267245a0c54ceb20cf768b0">   35</a></span>&#160;    [[nodiscard]] <span class="keywordtype">bool</span> <a class="code" href="classgentorch_1_1Address.html#ad77e2460c267245a0c54ceb20cf768b0">empty</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> !first_.has_value(); }</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classgentorch_1_1Address.html#a5ba84c2136aa2fad8cfccc88632b7ded">Address</a>(std::initializer_list&lt;std::string&gt;::const_iterator begin,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                     std::initializer_list&lt;std::string&gt;::const_iterator end);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    [[nodiscard]] <span class="keyword">const</span> std::string&amp; <a class="code" href="classgentorch_1_1Address.html#a5ec7dab113d213afe5052cbca2549ce5">first</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    [[nodiscard]] <span class="keyword">const</span> <a class="code" href="classgentorch_1_1Address.html">Address</a>&amp; <a class="code" href="classgentorch_1_1Address.html#aeb645e636fdf078c4a963ce251942dc7">rest</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">friend</span> std::ostream&amp; <a class="code" href="classgentorch_1_1Address.html#a6e3f5e687ffeaf98d6dd7ef11727b512">operator&lt;&lt; </a>(std::ostream&amp; out, <span class="keyword">const</span> <a class="code" href="classgentorch_1_1Address.html">Address</a>&amp; address);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    std::optional&lt;std::string&gt; first_;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    std::optional&lt;std::shared_ptr&lt;Address&gt;&gt; rest_;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;};</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;std::ostream&amp; <a class="code" href="namespacegentorch.html#ad88f1c683d9049b1c5299888b65cc3f1">operator&lt;&lt; </a>(std::ostream&amp; out, <span class="keyword">const</span> Address&amp; address);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif // GENTORCH_ADDRESS_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aclassgen_1_1Address_html"><div class="ttname"><a href="classgen_1_1Address.html">gen::Address</a></div><div class="ttdef"><b>Definition:</b> address.h:30</div></div>
-<div class="ttc" id="anamespacegen_html_a9c7e196a22f33ec53d564ddda8853e07"><div class="ttname"><a href="namespacegen.html#a9c7e196a22f33ec53d564ddda8853e07">gen::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;out, const Address &amp;address)</div></div>
-<div class="ttc" id="aclassgen_1_1Address_html_a330192bfe38990d3960916843ea0176c"><div class="ttname"><a href="classgen_1_1Address.html#a330192bfe38990d3960916843ea0176c">gen::Address::Address</a></div><div class="ttdeci">Address(std::initializer_list&lt; std::string &gt; list)</div><div class="ttdef"><b>Definition:</b> address.h:33</div></div>
-<div class="ttc" id="aclassgen_1_1Address_html_a4c091eb2af372451d19b59b8905f1b61"><div class="ttname"><a href="classgen_1_1Address.html#a4c091eb2af372451d19b59b8905f1b61">gen::Address::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition:</b> address.h:34</div></div>
-<div class="ttc" id="aclassgen_1_1Address_html_a6c11edf1c03bfcf3727a98adb7a218d4"><div class="ttname"><a href="classgen_1_1Address.html#a6c11edf1c03bfcf3727a98adb7a218d4">gen::Address::Address</a></div><div class="ttdeci">Address()</div><div class="ttdef"><b>Definition:</b> address.h:32</div></div>
-<div class="ttc" id="anamespacegen_html"><div class="ttname"><a href="namespacegen.html">gen</a></div><div class="ttdef"><b>Definition:</b> parameters.h:26</div></div>
-<div class="ttc" id="aclassgen_1_1Address_html_a89748f08f8ba94e87d88cc43f39d781d"><div class="ttname"><a href="classgen_1_1Address.html#a89748f08f8ba94e87d88cc43f39d781d">gen::Address::rest</a></div><div class="ttdeci">const Address &amp; rest() const</div></div>
-<div class="ttc" id="aclassgen_1_1Address_html_a6e3f5e687ffeaf98d6dd7ef11727b512"><div class="ttname"><a href="classgen_1_1Address.html#a6e3f5e687ffeaf98d6dd7ef11727b512">gen::Address::operator&lt;&lt;</a></div><div class="ttdeci">friend std::ostream &amp; operator&lt;&lt;(std::ostream &amp;out, const Address &amp;address)</div></div>
-<div class="ttc" id="aclassgen_1_1Address_html_a472a4a739ace76f9b9f373a6df76d13c"><div class="ttname"><a href="classgen_1_1Address.html#a472a4a739ace76f9b9f373a6df76d13c">gen::Address::first</a></div><div class="ttdeci">const std::string &amp; first() const</div></div>
+<div class="ttc" id="aclassgentorch_1_1Address_html_a5ba84c2136aa2fad8cfccc88632b7ded"><div class="ttname"><a href="classgentorch_1_1Address.html#a5ba84c2136aa2fad8cfccc88632b7ded">gentorch::Address::Address</a></div><div class="ttdeci">Address()</div><div class="ttdef"><b>Definition:</b> address.h:33</div></div>
+<div class="ttc" id="aclassgentorch_1_1Address_html_ad77e2460c267245a0c54ceb20cf768b0"><div class="ttname"><a href="classgentorch_1_1Address.html#ad77e2460c267245a0c54ceb20cf768b0">gentorch::Address::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition:</b> address.h:35</div></div>
+<div class="ttc" id="anamespacegentorch_html"><div class="ttname"><a href="namespacegentorch.html">gentorch</a></div><div class="ttdef"><b>Definition:</b> parameters.h:26</div></div>
+<div class="ttc" id="aclassgentorch_1_1Address_html_a5ec7dab113d213afe5052cbca2549ce5"><div class="ttname"><a href="classgentorch_1_1Address.html#a5ec7dab113d213afe5052cbca2549ce5">gentorch::Address::first</a></div><div class="ttdeci">const std::string &amp; first() const</div></div>
+<div class="ttc" id="aclassgentorch_1_1Address_html_af856ffbd2d4ad375682a69240fa19e60"><div class="ttname"><a href="classgentorch_1_1Address.html#af856ffbd2d4ad375682a69240fa19e60">gentorch::Address::Address</a></div><div class="ttdeci">Address(std::initializer_list&lt; std::string &gt; list)</div><div class="ttdef"><b>Definition:</b> address.h:34</div></div>
+<div class="ttc" id="aclassgentorch_1_1Address_html"><div class="ttname"><a href="classgentorch_1_1Address.html">gentorch::Address</a></div><div class="ttdef"><b>Definition:</b> address.h:31</div></div>
+<div class="ttc" id="aclassgentorch_1_1Address_html_a6e3f5e687ffeaf98d6dd7ef11727b512"><div class="ttname"><a href="classgentorch_1_1Address.html#a6e3f5e687ffeaf98d6dd7ef11727b512">gentorch::Address::operator&lt;&lt;</a></div><div class="ttdeci">friend std::ostream &amp; operator&lt;&lt;(std::ostream &amp;out, const Address &amp;address)</div></div>
+<div class="ttc" id="aclassgentorch_1_1Address_html_aeb645e636fdf078c4a963ce251942dc7"><div class="ttname"><a href="classgentorch_1_1Address.html#aeb645e636fdf078c4a963ce251942dc7">gentorch::Address::rest</a></div><div class="ttdeci">const Address &amp; rest() const</div></div>
+<div class="ttc" id="anamespacegentorch_html_ad88f1c683d9049b1c5299888b65cc3f1"><div class="ttname"><a href="namespacegentorch.html#ad88f1c683d9049b1c5299888b65cc3f1">gentorch::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;out, const Address &amp;address)</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

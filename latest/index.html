@@ -69,7 +69,7 @@ $(function() {
 <div class="textblock"><p>GenTorch is a probabilistic programming language embedded in C++, that uses the PyTorch C++ API (LibTorch) for automatic differentiation. GenTorch probabilistic programs can represent probabilistic <b>generative models</b> (including structured generative models and deep generative models) as well as <b>inference models</b> (including proposal distributions and amortized inference networks).</p>
 <h1><a class="anchor" id="autotoc_md0"></a>
 Defining a probabilistic program</h1>
-<p>Users write a GenTorch probabilistic program by defining a new class that derives from the gen::DMLGenFn class.</p>
+<p>Users write a GenTorch probabilistic program by defining a new class that derives from the gentorch::DMLGenFn class.</p>
 <h2><a class="anchor" id="autotoc_md1"></a>
 Declaring the input type, return type, and parameter type</h2>
 <p>As part of the declaration of your class, you indicate the <b>input type</b>, <b>return type</b>, and <b>parameter type</b> of your probabilistic program. Your class should have a constructor that invokes the base class constructor, which takes a single argument called the <b>input</b>.</p>
@@ -94,16 +94,16 @@ Using your probabilistic program</h1>
 <h1><a class="anchor" id="autotoc_md4"></a>
 Basic types:</h1>
 <ul>
-<li><a class="el" href="classgen_1_1Address.html">gen::Address</a></li>
-<li><a class="el" href="classgen_1_1Trie.html">gen::Trie</a></li>
-<li>gen::Module</li>
-<li><a class="el" href="classgen_1_1Trace.html">gen::Trace</a></li>
-<li><a class="el" href="classgen_1_1GradientAccumulator.html">gen::GradientAccumulator</a></li>
+<li><a class="el" href="classgentorch_1_1Address.html">gentorch::Address</a></li>
+<li><a class="el" href="classgentorch_1_1Trie.html">gentorch::Trie</a></li>
+<li>gentorch::Module</li>
+<li><a class="el" href="classgentorch_1_1Trace.html">gentorch::Trace</a></li>
+<li><a class="el" href="classgentorch_1_1GradientAccumulator.html">gentorch::GradientAccumulator</a></li>
 </ul>
 <p>Types of generative functions:</p>
 <ul>
-<li>gen::dml::DMLGenFn</li>
-<li>gen::distributions::normal::Normal </li>
+<li><a class="el" href="classgentorch_1_1dml_1_1DMLGenFn.html">gentorch::dml::DMLGenFn</a></li>
+<li><a class="el" href="classgentorch_1_1distributions_1_1normal_1_1Normal.html">gentorch::distributions::normal::Normal</a> </li>
 </ul>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->

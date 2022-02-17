@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GenTorch: gen/trace.h Source File</title>
+<title>GenTorch: gentorch/trace.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,7 +62,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc8e1200a125b987143b0322bad47295.html">gen</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_45827b7a7012176b5142db2efdceee77.html">gentorch</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -70,7 +70,7 @@ $(function() {
 <div class="title">trace.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="trace_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* Copyright 2021 The LibGen Authors</span></div>
+<a href="trace_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* Copyright 2021-2022 Massachusetts Institute of Technology</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"></span> </div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">you may not use this file except in compliance with the License.</span></div>
@@ -85,49 +85,44 @@ $(function() {
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">        limitations under the License.</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">==============================================================================*/</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="trie_8h.html">gen/trie.h</a>&gt;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="parameters_8h.html">gen/parameters.h</a>&gt;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifndef GENTORCH_TRACE_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#define GENTORCH_TRACE_H</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="trie_8h.html">gentorch/trie.h</a>&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="parameters_8h.html">gentorch/parameters.h</a>&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;any&gt;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegen.html">gen</a> {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegentorch.html">gentorch</a> {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classgen_1_1Trace.html">   30</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classgen_1_1Trace.html">Trace</a> {</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classgentorch_1_1Trace.html">   30</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classgentorch_1_1Trace.html">Trace</a> {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classgen_1_1Trace.html#aca61bf48eec4f15acf5cbb3163f69c1c">~Trace</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classgentorch_1_1Trace.html#ac407b22df790d40c40019525f006ea54">~Trace</a>() = <span class="keywordflow">default</span>;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        [[nodiscard]] <span class="keyword">virtual</span> <a class="code" href="classgen_1_1Trie.html">ChoiceTrie</a> <a class="code" href="classgen_1_1Trace.html#a03059ee943886ce878fbe32f3e74d733">choices</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        [[nodiscard]] <span class="keyword">virtual</span> <a class="code" href="classgentorch_1_1Trie.html">ChoiceTrie</a> <a class="code" href="classgentorch_1_1Trace.html#ac645e3b45d57ef6406509e8921b866cf">choices</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code" href="classgen_1_1Trace.html#a6ada731efa97aab6dce6c40d4e4b2f2c">score</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code" href="classgentorch_1_1Trace.html#a9df6503d98a4026231e807d3c10759de">score</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classgen_1_1Trace.html#af399741e25569036cb72344b1881c3a3">revert</a>() = 0;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classgentorch_1_1Trace.html#a0f7f6b179ce4668bcd53a070f8b845d1">revert</a>() = 0;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keyword">virtual</span> std::unique_ptr&lt;Trace&gt; <a class="code" href="classgen_1_1Trace.html#aace23a011751b6a410239ae2678fd8b1">fork</a>() = 0;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keyword">virtual</span> std::unique_ptr&lt;Trace&gt; <a class="code" href="classgentorch_1_1Trace.html#acb6ad70a7ae273fce303fc00f256b5a1">fork_type_erased</a>() = 0;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">//        /**</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">//         * @return the return value of the generative function.</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">//         */</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">//        [[nodiscard]] virtual const std::any* get_return_value() const = 0;</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    };</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">//        virtual std::any gradients(std::any retval_grad, double scaler, GradientAccumulator&amp; accumulator) = 0;</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    };</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif // GENTORCH_TRACE_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aclassgen_1_1Trace_html_a03059ee943886ce878fbe32f3e74d733"><div class="ttname"><a href="classgen_1_1Trace.html#a03059ee943886ce878fbe32f3e74d733">gen::Trace::choices</a></div><div class="ttdeci">virtual ChoiceTrie choices() const =0</div></div>
-<div class="ttc" id="aclassgen_1_1Trace_html_aace23a011751b6a410239ae2678fd8b1"><div class="ttname"><a href="classgen_1_1Trace.html#aace23a011751b6a410239ae2678fd8b1">gen::Trace::fork</a></div><div class="ttdeci">virtual std::unique_ptr&lt; Trace &gt; fork()=0</div></div>
-<div class="ttc" id="aclassgen_1_1Trace_html_a6ada731efa97aab6dce6c40d4e4b2f2c"><div class="ttname"><a href="classgen_1_1Trace.html#a6ada731efa97aab6dce6c40d4e4b2f2c">gen::Trace::score</a></div><div class="ttdeci">virtual double score() const =0</div></div>
-<div class="ttc" id="aclassgen_1_1Trace_html_af399741e25569036cb72344b1881c3a3"><div class="ttname"><a href="classgen_1_1Trace.html#af399741e25569036cb72344b1881c3a3">gen::Trace::revert</a></div><div class="ttdeci">virtual void revert()=0</div></div>
-<div class="ttc" id="anamespacegen_html"><div class="ttname"><a href="namespacegen.html">gen</a></div><div class="ttdef"><b>Definition:</b> parameters.h:26</div></div>
+<div class="ttc" id="anamespacegentorch_html"><div class="ttname"><a href="namespacegentorch.html">gentorch</a></div><div class="ttdef"><b>Definition:</b> parameters.h:26</div></div>
+<div class="ttc" id="aclassgentorch_1_1Trace_html_ac407b22df790d40c40019525f006ea54"><div class="ttname"><a href="classgentorch_1_1Trace.html#ac407b22df790d40c40019525f006ea54">gentorch::Trace::~Trace</a></div><div class="ttdeci">virtual ~Trace()=default</div></div>
+<div class="ttc" id="aclassgentorch_1_1Trace_html"><div class="ttname"><a href="classgentorch_1_1Trace.html">gentorch::Trace</a></div><div class="ttdef"><b>Definition:</b> trace.h:30</div></div>
+<div class="ttc" id="aclassgentorch_1_1Trie_html"><div class="ttname"><a href="classgentorch_1_1Trie.html">gentorch::Trie&lt; std::any &gt;</a></div></div>
 <div class="ttc" id="aparameters_8h_html"><div class="ttname"><a href="parameters_8h.html">parameters.h</a></div></div>
-<div class="ttc" id="aclassgen_1_1Trace_html_aca61bf48eec4f15acf5cbb3163f69c1c"><div class="ttname"><a href="classgen_1_1Trace.html#aca61bf48eec4f15acf5cbb3163f69c1c">gen::Trace::~Trace</a></div><div class="ttdeci">virtual ~Trace()=default</div></div>
-<div class="ttc" id="aclassgen_1_1Trie_html"><div class="ttname"><a href="classgen_1_1Trie.html">gen::Trie</a></div><div class="ttdef"><b>Definition:</b> trie.h:82</div></div>
-<div class="ttc" id="aclassgen_1_1Trace_html"><div class="ttname"><a href="classgen_1_1Trace.html">gen::Trace</a></div><div class="ttdef"><b>Definition:</b> trace.h:30</div></div>
+<div class="ttc" id="aclassgentorch_1_1Trace_html_acb6ad70a7ae273fce303fc00f256b5a1"><div class="ttname"><a href="classgentorch_1_1Trace.html#acb6ad70a7ae273fce303fc00f256b5a1">gentorch::Trace::fork_type_erased</a></div><div class="ttdeci">virtual std::unique_ptr&lt; Trace &gt; fork_type_erased()=0</div></div>
+<div class="ttc" id="aclassgentorch_1_1Trace_html_ac645e3b45d57ef6406509e8921b866cf"><div class="ttname"><a href="classgentorch_1_1Trace.html#ac645e3b45d57ef6406509e8921b866cf">gentorch::Trace::choices</a></div><div class="ttdeci">virtual ChoiceTrie choices() const =0</div></div>
+<div class="ttc" id="aclassgentorch_1_1Trace_html_a9df6503d98a4026231e807d3c10759de"><div class="ttname"><a href="classgentorch_1_1Trace.html#a9df6503d98a4026231e807d3c10759de">gentorch::Trace::score</a></div><div class="ttdeci">virtual double score() const =0</div></div>
+<div class="ttc" id="aclassgentorch_1_1Trace_html_a0f7f6b179ce4668bcd53a070f8b845d1"><div class="ttname"><a href="classgentorch_1_1Trace.html#a0f7f6b179ce4668bcd53a070f8b845d1">gentorch::Trace::revert</a></div><div class="ttdeci">virtual void revert()=0</div></div>
 <div class="ttc" id="atrie_8h_html"><div class="ttname"><a href="trie_8h.html">trie.h</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

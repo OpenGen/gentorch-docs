@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zero_5fgradient_120',['zero_gradient',['../namespacegen.html#af6ceae86ef77cd5e85189525789ea586',1,'gen::zero_gradient(const Nothing &amp;value)'],['../namespacegen.html#a4017ec797d98ec710254aba397552325',1,'gen::zero_gradient(const Tensor &amp;value)']]]
+  ['what_220',['what',['../classgentorch_1_1TrieKeyError.html#a71415b0bee8dc4127edc5eddaa2425ce',1,'gentorch::TrieKeyError::what()'],['../classgentorch_1_1TrieOverwriteError.html#aa910169c88a3e302fd556475cff1287a',1,'gentorch::TrieOverwriteError::what()']]]
 ];

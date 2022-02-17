@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['r_213',['R',['../classgen_1_1dml_1_1DMLGenFn.html#a9af396be13a54951326dae563e176e6b',1,'gen::dml::DMLGenFn']]],
-  ['return_5ftype_214',['return_type',['../classgen_1_1dml_1_1DMLTrace.html#aee6f92f88ac5738b3dcf2e15a9cfc642',1,'gen::dml::DMLTrace::return_type()'],['../classgen_1_1dml_1_1DMLGenFn.html#a74758ab92785aa0c97c6ebfd0fb0ab25',1,'gen::dml::DMLGenFn::return_type()']]]
+  ['r_239',['R',['../classgentorch_1_1distributions_1_1PrimitiveGenFn.html#af7ab984586feb398b71e4c896597a5be',1,'gentorch::distributions::PrimitiveGenFn']]],
+  ['return_5ftype_240',['return_type',['../classgentorch_1_1distributions_1_1PrimitiveTrace.html#ac1789a401d979bec23b15e4c19069b55',1,'gentorch::distributions::PrimitiveTrace::return_type()'],['../classgentorch_1_1distributions_1_1PrimitiveGenFn.html#a348d320fd728daff9ff7055de71dd4f0',1,'gentorch::distributions::PrimitiveGenFn::return_type()']]]
 ];

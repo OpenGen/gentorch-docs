@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['trie_114',['Trie',['../classgen_1_1Trie.html#a10ddc88847837f7decbe29c3823de7e9',1,'gen::Trie::Trie()=default'],['../classgen_1_1Trie.html#a8793f831d4d1ec3f09fda6cb1878ef47',1,'gen::Trie::Trie(const Trie &amp;value)=default'],['../classgen_1_1Trie.html#ae378d06d861c5e4ab3b74391b9aa064d',1,'gen::Trie::Trie(Trie &amp;&amp;value) noexcept=default']]],
-  ['triekeyerror_115',['TrieKeyError',['../classgen_1_1TrieKeyError.html#a285f7d2c9b579af38b5d9245556cf9d1',1,'gen::TrieKeyError']]],
-  ['trieoverwriteerror_116',['TrieOverwriteError',['../classgen_1_1TrieOverwriteError.html#a48ec2761d6d39fcfb0e8e92ac0f12eae',1,'gen::TrieOverwriteError']]]
+  ['sample_206',['sample',['../classgentorch_1_1distributions_1_1normal_1_1NormalDist.html#a2635506b6f1b06dad1be5e59ba64df5f',1,'gentorch::distributions::normal::NormalDist::sample()'],['../classgentorch_1_1distributions_1_1bernoulli_1_1BernoulliDist.html#a3a5fa8f96a518bab90d547a0d6c9a529',1,'gentorch::distributions::bernoulli::BernoulliDist::sample()'],['../classgentorch_1_1distributions_1_1uniform__continuous_1_1UniformContinuousDist.html#a5116a75b56c842479e4f1f73fe95da4a',1,'gentorch::distributions::uniform_continuous::UniformContinuousDist::sample()']]],
+  ['score_207',['score',['../classgentorch_1_1Trace.html#a9df6503d98a4026231e807d3c10759de',1,'gentorch::Trace::score()'],['../classgentorch_1_1distributions_1_1PrimitiveTrace.html#a932ac758d7a2f8265991817c6ada11c0',1,'gentorch::distributions::PrimitiveTrace::score()']]],
+  ['set_5fsubtrie_208',['set_subtrie',['../classgentorch_1_1Trie.html#a79f61f956789199115f189455ce10e15',1,'gentorch::Trie']]],
+  ['set_5fvalue_209',['set_value',['../classgentorch_1_1Trie.html#a15a4a9f73a6b5b1ada6b136721183376',1,'gentorch::Trie::set_value(ValueType value, bool overwrite=true)'],['../classgentorch_1_1Trie.html#abb727ce0a62fcf4a37723e88d8cd8db8',1,'gentorch::Trie::set_value(const Address &amp;address, ValueType value, bool overwrite=true)']]],
+  ['simulate_210',['simulate',['../classgentorch_1_1distributions_1_1PrimitiveGenFn.html#a11d253531c717697e2452e10523a40b7',1,'gentorch::distributions::PrimitiveGenFn']]],
+  ['subtries_211',['subtries',['../classgentorch_1_1Trie.html#a1f0dc8341c8a33c12cd02fa9eafde77b',1,'gentorch::Trie']]]
 ];

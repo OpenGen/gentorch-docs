@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GenTorch: gen/trie.h File Reference</title>
+<title>GenTorch: gentorch/trie.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,7 +62,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc8e1200a125b987143b0322bad47295.html">gen</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_45827b7a7012176b5142db2efdceee77.html">gentorch</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -75,7 +75,8 @@ $(function() {
 <div class="title">trie.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="address_8h_source.html">gen/address.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="address_8h_source.html">gentorch/address.h</a>&gt;</code><br />
+<code>#include &lt;torch/torch.h&gt;</code><br />
 <code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &lt;any&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
@@ -83,22 +84,21 @@ $(function() {
 <code>#include &lt;exception&gt;</code><br />
 <code>#include &lt;sstream&gt;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
-<code>#include &lt;torch/torch.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for trie.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="trie_8h__incl.png" border="0" usemap="#gen_2trie_8h" alt=""/></div>
-<map name="gen_2trie_8h" id="gen_2trie_8h">
-<area shape="rect" title=" " alt="" coords="394,5,478,32"/>
-<area shape="rect" href="address_8h.html" title=" " alt="" coords="87,80,201,107"/>
+<div class="center"><img src="trie_8h__incl.png" border="0" usemap="#gentorch_2trie_8h" alt=""/></div>
+<map name="gentorch_2trie_8h" id="gentorch_2trie_8h">
+<area shape="rect" title=" " alt="" coords="456,5,573,32"/>
+<area shape="rect" href="address_8h.html" title=" " alt="" coords="81,80,228,107"/>
 <area shape="rect" title=" " alt="" coords="5,155,83,181"/>
-<area shape="rect" title=" " alt="" coords="225,80,311,107"/>
-<area shape="rect" title=" " alt="" coords="335,80,382,107"/>
-<area shape="rect" title=" " alt="" coords="407,80,465,107"/>
-<area shape="rect" title=" " alt="" coords="490,80,577,107"/>
-<area shape="rect" title=" " alt="" coords="601,80,676,107"/>
-<area shape="rect" title=" " alt="" coords="701,80,825,107"/>
-<area shape="rect" title=" " alt="" coords="849,80,953,107"/>
+<area shape="rect" title=" " alt="" coords="252,80,356,107"/>
+<area shape="rect" title=" " alt="" coords="381,80,467,107"/>
+<area shape="rect" title=" " alt="" coords="491,80,538,107"/>
+<area shape="rect" title=" " alt="" coords="563,80,621,107"/>
+<area shape="rect" title=" " alt="" coords="646,80,733,107"/>
+<area shape="rect" title=" " alt="" coords="757,80,832,107"/>
+<area shape="rect" title=" " alt="" coords="857,80,981,107"/>
 <area shape="rect" title=" " alt="" coords="107,155,181,181"/>
 <area shape="rect" title=" " alt="" coords="206,155,317,181"/>
 <area shape="rect" title=" " alt="" coords="341,155,421,181"/>
@@ -107,10 +107,14 @@ Include dependency graph for trie.h:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="trie_8h__dep__incl.png" border="0" usemap="#gen_2trie_8hdep" alt=""/></div>
-<map name="gen_2trie_8hdep" id="gen_2trie_8hdep">
-<area shape="rect" title=" " alt="" coords="11,5,95,32"/>
-<area shape="rect" href="trace_8h.html" title=" " alt="" coords="5,80,100,107"/>
+<div class="center"><img src="trie_8h__dep__incl.png" border="0" usemap="#gentorch_2trie_8hdep" alt=""/></div>
+<map name="gentorch_2trie_8hdep" id="gentorch_2trie_8hdep">
+<area shape="rect" title=" " alt="" coords="267,5,385,32"/>
+<area shape="rect" href="trace_8h.html" title=" " alt="" coords="262,80,390,107"/>
+<area shape="rect" href="distributions_8h.html" title=" " alt="" coords="172,155,336,196"/>
+<area shape="rect" href="normal_8h.html" title=" " alt="" coords="5,244,169,285"/>
+<area shape="rect" href="bernoulli_8h.html" title=" " alt="" coords="193,244,357,285"/>
+<area shape="rect" href="uniform__continuous_8h.html" title=" " alt="" coords="381,244,548,285"/>
 </map>
 </div>
 </div>
@@ -118,43 +122,43 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1TrieKeyError.html">gen::TrieKeyError</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgentorch_1_1TrieKeyError.html">gentorch::TrieKeyError</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1TrieOverwriteError.html">gen::TrieOverwriteError</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgentorch_1_1TrieOverwriteError.html">gentorch::TrieOverwriteError</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1Trie.html">gen::Trie&lt; ValueType &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgentorch_1_1Trie.html">gentorch::Trie&lt; ValueType &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespacegen"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegen.html">gen</a></td></tr>
+<tr class="memitem:namespacegentorch"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegentorch.html">gentorch</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a4ca0a6a8c7d717f2e107c74ab0ecf51f"><td class="memItemLeft" align="right" valign="top">typedef Trie&lt; std::any &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegen.html#a4ca0a6a8c7d717f2e107c74ab0ecf51f">gen::ChoiceTrie</a></td></tr>
-<tr class="separator:a4ca0a6a8c7d717f2e107c74ab0ecf51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89ce24cdb9435458a510d50e31c20d62"><td class="memItemLeft" align="right" valign="top">typedef Trie&lt; std::any &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegentorch.html#a89ce24cdb9435458a510d50e31c20d62">gentorch::ChoiceTrie</a></td></tr>
+<tr class="separator:a89ce24cdb9435458a510d50e31c20d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad36f2fb8150b5718fec5c1b18cb1449a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ad36f2fb8150b5718fec5c1b18cb1449a"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegen.html#ad36f2fb8150b5718fec5c1b18cb1449a">gen::operator&lt;&lt;</a> (std::ostream &amp;out, const Trie&lt; T &gt; &amp;trie)</td></tr>
-<tr class="separator:ad36f2fb8150b5718fec5c1b18cb1449a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c8f4a84f06aef74404e90a0ecaa9cfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegen.html#a0c8f4a84f06aef74404e90a0ecaa9cfb">gen::pretty_print_value</a> (std::ostream &amp;out, const std::any &amp;value)</td></tr>
-<tr class="separator:a0c8f4a84f06aef74404e90a0ecaa9cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8e322bd2f4b962bccde6dfa87a15adc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegen.html#ab8e322bd2f4b962bccde6dfa87a15adc">gen::add_vert_bars</a> (std::string &amp;str, const std::vector&lt; int &gt; &amp;vert_bars)</td></tr>
-<tr class="separator:ab8e322bd2f4b962bccde6dfa87a15adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c0072a02be6a9a0f510ce521b924a2d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegen.html#a5c0072a02be6a9a0f510ce521b924a2d">gen::get_indent_vert</a> (int pre, const std::vector&lt; int &gt; &amp;vert_bars)</td></tr>
-<tr class="separator:a5c0072a02be6a9a0f510ce521b924a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6293618a2d388126d7d63f9ee02b763a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegen.html#a6293618a2d388126d7d63f9ee02b763a">gen::get_indent_vert_last</a> (int pre, const std::vector&lt; int &gt; &amp;vert_bars)</td></tr>
-<tr class="separator:a6293618a2d388126d7d63f9ee02b763a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1deec51d0e38e5f6a501531b30671bfb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegen.html#a1deec51d0e38e5f6a501531b30671bfb">gen::get_indent</a> (int pre, const std::vector&lt; int &gt; &amp;vert_bars)</td></tr>
-<tr class="separator:a1deec51d0e38e5f6a501531b30671bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cbe82e3593e2f24378efb1e9d6dcefe"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegen.html#a8cbe82e3593e2f24378efb1e9d6dcefe">gen::get_indent_last</a> (int pre, const std::vector&lt; int &gt; &amp;vert_bars)</td></tr>
-<tr class="separator:a8cbe82e3593e2f24378efb1e9d6dcefe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a646e0dc0203df9ec7bf1fbceef5769"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
-<tr class="memitem:a7a646e0dc0203df9ec7bf1fbceef5769"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegen.html#a7a646e0dc0203df9ec7bf1fbceef5769">gen::operator&lt;&lt;</a> (std::ostream &amp;out, const Trie&lt; ValueType &gt; &amp;trie)</td></tr>
-<tr class="separator:a7a646e0dc0203df9ec7bf1fbceef5769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24d48fb125410c79bdbd6a6e73913ea5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a24d48fb125410c79bdbd6a6e73913ea5"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegentorch.html#a24d48fb125410c79bdbd6a6e73913ea5">gentorch::operator&lt;&lt;</a> (std::ostream &amp;out, const Trie&lt; T &gt; &amp;trie)</td></tr>
+<tr class="separator:a24d48fb125410c79bdbd6a6e73913ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ab06cd05e05072b40ed6b902e1e24c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegentorch.html#a8ab06cd05e05072b40ed6b902e1e24c0">gentorch::pretty_print_value</a> (std::ostream &amp;out, const std::any &amp;value)</td></tr>
+<tr class="separator:a8ab06cd05e05072b40ed6b902e1e24c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a442118b450981ab5a3c58aa2ce6f6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegentorch.html#a9a442118b450981ab5a3c58aa2ce6f6a">gentorch::add_vert_bars</a> (std::string &amp;str, const std::vector&lt; int &gt; &amp;vert_bars)</td></tr>
+<tr class="separator:a9a442118b450981ab5a3c58aa2ce6f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa4168345e7c56e30dabff59c7496d74"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegentorch.html#afa4168345e7c56e30dabff59c7496d74">gentorch::get_indent_vert</a> (int pre, const std::vector&lt; int &gt; &amp;vert_bars)</td></tr>
+<tr class="separator:afa4168345e7c56e30dabff59c7496d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ec2cb4456a85991c5f51e012f906052"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegentorch.html#a6ec2cb4456a85991c5f51e012f906052">gentorch::get_indent_vert_last</a> (int pre, const std::vector&lt; int &gt; &amp;vert_bars)</td></tr>
+<tr class="separator:a6ec2cb4456a85991c5f51e012f906052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa753661ae6108a73d235b7f1aff2b349"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegentorch.html#aa753661ae6108a73d235b7f1aff2b349">gentorch::get_indent</a> (int pre, const std::vector&lt; int &gt; &amp;vert_bars)</td></tr>
+<tr class="separator:aa753661ae6108a73d235b7f1aff2b349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae23f498fd5a2985d758d4c036edf0c26"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegentorch.html#ae23f498fd5a2985d758d4c036edf0c26">gentorch::get_indent_last</a> (int pre, const std::vector&lt; int &gt; &amp;vert_bars)</td></tr>
+<tr class="separator:ae23f498fd5a2985d758d4c036edf0c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea959ae139b73867cbbffd0917e0a3ab"><td class="memTemplParams" colspan="2">template&lt;typename ValueType &gt; </td></tr>
+<tr class="memitem:aea959ae139b73867cbbffd0917e0a3ab"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegentorch.html#aea959ae139b73867cbbffd0917e0a3ab">gentorch::operator&lt;&lt;</a> (std::ostream &amp;out, const Trie&lt; ValueType &gt; &amp;trie)</td></tr>
+<tr class="separator:aea959ae139b73867cbbffd0917e0a3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

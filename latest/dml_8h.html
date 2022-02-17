@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GenTorch: gen/dml.h File Reference</title>
+<title>GenTorch: gentorch/dml/dml.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,57 +62,53 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc8e1200a125b987143b0322bad47295.html">gen</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_45827b7a7012176b5142db2efdceee77.html">gentorch</a></li><li class="navelem"><a class="el" href="dir_68062fd1f69864b008c066f727aee76e.html">dml</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">dml.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="address_8h_source.html">gen/address.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="trie_8h_source.html">gen/trie.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="conversions_8h_source.html">gen/conversions.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="trace_8h_source.html">gen/trace.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="parameters_8h_source.html">gen/parameters.h</a>&gt;</code><br />
-<code>#include &lt;gentl/concepts.h&gt;</code><br />
-<code>#include &lt;gentl/types.h&gt;</code><br />
-<code>#include &lt;torch/torch.h&gt;</code><br />
-<code>#include &lt;torch/csrc/autograd/functions/utils.h&gt;</code><br />
-<code>#include &lt;any&gt;</code><br />
-<code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;optional&gt;</code><br />
+<div class="textblock"><code>#include &lt;gentorch/dml/autodiff.h&gt;</code><br />
+<code>#include &lt;gentorch/dml/gen_fn.h&gt;</code><br />
+<code>#include &lt;gentorch/dml/trace.h&gt;</code><br />
+<code>#include &lt;gentorch/dml/simulate.h&gt;</code><br />
+<code>#include &lt;gentorch/dml/generate.h&gt;</code><br />
+<code>#include &lt;gentorch/dml/assess.h&gt;</code><br />
+<code>#include &lt;gentorch/dml/update.h&gt;</code><br />
+<code>#include &lt;gentorch/dml/parameter_gradient.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for dml.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="dml_8h__incl.png" border="0" usemap="#gen_2dml_8h" alt=""/></div>
-<map name="gen_2dml_8h" id="gen_2dml_8h">
-<area shape="rect" title=" " alt="" coords="695,5,782,32"/>
-<area shape="rect" href="address_8h.html" title=" " alt="" coords="97,237,210,263"/>
-<area shape="rect" title=" " alt="" coords="5,319,80,345"/>
-<area shape="rect" title=" " alt="" coords="612,319,689,345"/>
-<area shape="rect" href="trie_8h.html" title=" " alt="" coords="553,155,637,181"/>
-<area shape="rect" title=" " alt="" coords="286,237,333,263"/>
-<area shape="rect" title=" " alt="" coords="961,237,1065,263"/>
-<area shape="rect" href="conversions_8h.html" title=" " alt="" coords="739,80,879,107"/>
-<area shape="rect" href="trace_8h.html" title=" " alt="" coords="621,80,715,107"/>
-<area shape="rect" href="parameters_8h.html" title=" " alt="" coords="955,155,1093,181"/>
-<area shape="rect" title=" " alt="" coords="1316,229,1463,271"/>
-<area shape="rect" title=" " alt="" coords="1169,80,1298,107"/>
-<area shape="rect" title=" " alt="" coords="1323,80,1429,107"/>
-<area shape="rect" title=" " alt="" coords="105,319,215,345"/>
-<area shape="rect" title=" " alt="" coords="240,319,320,345"/>
-<area shape="rect" title=" " alt="" coords="357,237,443,263"/>
-<area shape="rect" title=" " alt="" coords="468,237,527,263"/>
-<area shape="rect" title=" " alt="" coords="551,237,638,263"/>
-<area shape="rect" title=" " alt="" coords="663,237,737,263"/>
-<area shape="rect" title=" " alt="" coords="762,237,886,263"/>
-<area shape="rect" title=" " alt="" coords="817,155,879,181"/>
-<area shape="rect" title=" " alt="" coords="1140,237,1292,263"/>
+<div class="center"><img src="dml_8h__incl.png" border="0" usemap="#gentorch_2dml_2dml_8h" alt=""/></div>
+<map name="gentorch_2dml_2dml_8h" id="gentorch_2dml_2dml_8h">
+<area shape="rect" title=" " alt="" coords="1553,5,1702,32"/>
+<area shape="rect" title=" " alt="" coords="5,87,180,114"/>
+<area shape="rect" title=" " alt="" coords="204,87,267,114"/>
+<area shape="rect" title=" " alt="" coords="291,87,351,114"/>
+<area shape="rect" title=" " alt="" coords="375,87,453,114"/>
+<area shape="rect" title=" " alt="" coords="477,87,581,114"/>
+<area shape="rect" title=" " alt="" coords="605,87,778,114"/>
+<area shape="rect" title=" " alt="" coords="802,87,973,114"/>
+<area shape="rect" title=" " alt="" coords="997,87,1165,114"/>
+<area shape="rect" title=" " alt="" coords="1189,87,1306,114"/>
+<area shape="rect" title=" " alt="" coords="1330,87,1437,114"/>
+<area shape="rect" title=" " alt="" coords="1461,87,1618,114"/>
+<area shape="rect" title=" " alt="" coords="1642,87,1789,114"/>
+<area shape="rect" title=" " alt="" coords="1813,87,1941,114"/>
+<area shape="rect" title=" " alt="" coords="1965,87,2095,114"/>
+<area shape="rect" title=" " alt="" coords="2119,87,2165,114"/>
+<area shape="rect" title=" " alt="" coords="2190,87,2265,114"/>
+<area shape="rect" title=" " alt="" coords="2289,87,2470,114"/>
+<area shape="rect" title=" " alt="" coords="2495,87,2677,114"/>
+<area shape="rect" title=" " alt="" coords="2702,87,2870,114"/>
+<area shape="rect" title=" " alt="" coords="2895,87,3064,114"/>
+<area shape="rect" title=" " alt="" coords="3088,80,3268,121"/>
+<area shape="rect" title=" " alt="" coords="3293,80,3439,121"/>
 </map>
 </div>
 </div>
@@ -120,40 +116,25 @@ Include dependency graph for dml.h:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgen_1_1dml_1_1GradientHelper.html">gen::dml::GradientHelper</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgentorch_1_1dml_1_1DMLGenFn.html">gentorch::dml::DMLGenFn&lt; Model, Args, Return, Parameters &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgen_1_1dml_1_1MyGradNode.html">gen::dml::MyGradNode&lt; args_type, return_value_type, subtrace_type &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgentorch_1_1dml_1_1DMLTrace.html">gentorch::dml::DMLTrace&lt; Model &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgen_1_1dml_1_1MyNode.html">gen::dml::MyNode&lt; args_type, return_type, subtrace_type &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgentorch_1_1dml_1_1DMLSimulateTracer.html">gentorch::dml::DMLSimulateTracer&lt; RNG, Model &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1dml_1_1DMLAlreadyVisitedError.html">gen::dml::DMLAlreadyVisitedError</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgentorch_1_1dml_1_1DMLGenerateTracer.html">gentorch::dml::DMLGenerateTracer&lt; RNG, Model &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1dml_1_1DMLTrace.html">gen::dml::DMLTrace&lt; Model &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgentorch_1_1dml_1_1DMLAssessTracer.html">gentorch::dml::DMLAssessTracer&lt; RNG, Model &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1dml_1_1DMLUpdateTracer.html">gen::dml::DMLUpdateTracer&lt; Generator, Model &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1dml_1_1DMLSimulateTracer.html">gen::dml::DMLSimulateTracer&lt; Generator, Model &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1dml_1_1DMLGenerateTracer.html">gen::dml::DMLGenerateTracer&lt; Generator, Model &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgen_1_1dml_1_1DMLGenFn.html">gen::dml::DMLGenFn&lt; Model, ArgsType, ReturnType, ParametersType &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgentorch_1_1dml_1_1DMLUpdateTracer.html">gentorch::dml::DMLUpdateTracer&lt; RNG, Model &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespacegen"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegen.html">gen</a></td></tr>
+<tr class="memitem:namespacegentorch"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegentorch.html">gentorch</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacegen_1_1dml"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegen_1_1dml.html">gen::dml</a></td></tr>
+<tr class="memitem:namespacegentorch_1_1dml"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegentorch_1_1dml.html">gentorch::dml</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a3bc71df0bc22c5fd85694b1e8431c1bb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a3bc71df0bc22c5fd85694b1e8431c1bb"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegen_1_1dml.html#a3bc71df0bc22c5fd85694b1e8431c1bb">gen::dml::detach_clone_and_track</a> (const T &amp;args)</td></tr>
-<tr class="separator:a3bc71df0bc22c5fd85694b1e8431c1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb40d7f59b1992e5f56347660bcc49ee"><td class="memTemplParams" colspan="2">template&lt;typename args_type &gt; </td></tr>
-<tr class="memitem:aeb40d7f59b1992e5f56347660bcc49ee"><td class="memTemplItemLeft" align="right" valign="top">pair&lt; const args_type &amp;, unique_ptr&lt; const args_type &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegen_1_1dml.html#aeb40d7f59b1992e5f56347660bcc49ee">gen::dml::maybe_track_args</a> (const args_type &amp;args, bool prepare_for_gradients)</td></tr>
-<tr class="separator:aeb40d7f59b1992e5f56347660bcc49ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

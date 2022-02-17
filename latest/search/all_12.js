@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['value_5f_57',['value_',['../classgen_1_1Trie.html#ac532b271ff15c9a089cc9ad9f6cfee5a',1,'gen::Trie']]]
+  ['value_5f_109',['value_',['../classgentorch_1_1Trie.html#a7c91957b5ce5a3cbf8da8295976b9826',1,'gentorch::Trie']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['choicetrie_129',['ChoiceTrie',['../namespacegen.html#a4ca0a6a8c7d717f2e107c74ab0ecf51f',1,'gen']]]
+  ['choicetrie_234',['ChoiceTrie',['../namespacegentorch.html#a89ce24cdb9435458a510d50e31c20d62',1,'gentorch']]]
 ];

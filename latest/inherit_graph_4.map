@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classgen_1_1Trie.html" title=" " alt="" coords="5,5,179,32"/>
+<area shape="rect" id="node1" href="$classgentorch_1_1distributions_1_1PrimitiveGenFn.html" title=" " alt="" coords="5,63,251,119"/>
+<area shape="rect" id="node2" href="$classgentorch_1_1distributions_1_1bernoulli_1_1Bernoulli.html" title=" " alt="" coords="299,5,467,47"/>
+<area shape="rect" id="node3" href="$classgentorch_1_1distributions_1_1normal_1_1Normal.html" title=" " alt="" coords="299,71,467,112"/>
+<area shape="rect" id="node4" href="$classgentorch_1_1distributions_1_1uniform__continuous_1_1UniformContinuous.html" title=" " alt="" coords="299,137,467,193"/>
 </map>
