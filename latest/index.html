@@ -78,33 +78,7 @@ Defining the forward function</h1>
 <p>Your class should have a template member function called <b>forward</b>, that takes a single template argument (the <b>tracer</b>; more on this later) and returns the <b>return type</b>. The body of this member function (which should be marked as <code>const</code> because it does not modify the inputs) defines the probabilistic semantics of your program by making random choices. You can use whatever deterministic code you want (with restrictions if you want support for gradients; see below), combined with special calls to other probabilistic programs made via <b>tracer.call</b>. You can call other GenTorch probabilistic programs, primitive probabilistic programs provided in this library, or other objects that implement the same GenTL interface.</p>
 <h1><a class="anchor" id="autotoc_md3"></a>
 Using your probabilistic program</h1>
-<p>Why write your model as a probabilistic program? Because GenTorch will automatically implement a number of functions that are useful for doing inference and learning with the model. These functions together implement the interface expected by the <a href="https://github.com/OpenGen/GenTL/">GenTL</a> library, which includes implementations of several composable inference and learning algorithms that you can apply to your model. You can also write your own inference and learning algorithms using the functions provided by GenTorch.</p>
-<p>The functions are:</p>
-<ul>
-<li>simulate</li>
-<li>generate</li>
-<li>score</li>
-<li>update</li>
-<li>revert</li>
-<li>fork</li>
-<li>choices</li>
-<li>parameter_gradient</li>
-<li>choice_gradient</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md4"></a>
-Basic types:</h1>
-<ul>
-<li><a class="el" href="classgentorch_1_1Address.html">gentorch::Address</a></li>
-<li><a class="el" href="classgentorch_1_1Trie.html">gentorch::Trie</a></li>
-<li>gentorch::Module</li>
-<li><a class="el" href="classgentorch_1_1Trace.html">gentorch::Trace</a></li>
-<li><a class="el" href="classgentorch_1_1GradientAccumulator.html">gentorch::GradientAccumulator</a></li>
-</ul>
-<p>Types of generative functions:</p>
-<ul>
-<li><a class="el" href="classgentorch_1_1dml_1_1DMLGenFn.html">gentorch::dml::DMLGenFn</a></li>
-<li><a class="el" href="classgentorch_1_1distributions_1_1normal_1_1Normal.html">gentorch::distributions::normal::Normal</a> </li>
-</ul>
+<p>Why write your model as a probabilistic program? Because GenTorch will automatically implement a number of functions that are useful for doing inference and learning with the model. These functions together implement the interface expected by the <a href="https://github.com/OpenGen/GenTL/">GenTL</a> library (see <a href="https://opengen.github.io/gentl-docs/latest/#interface">interface</a>), which includes implementations of several composable inference and learning algorithms that you can apply to your model. You can also write your own inference and learning algorithms using the functions provided by GenTorch. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
